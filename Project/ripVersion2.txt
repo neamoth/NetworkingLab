@@ -88,7 +88,7 @@ no shut
 exit
 
 ip dhcp pool MyProject
-Network 192.168.16.0 255.255.255.0
+Network 192.168.16.0 255.255.255.128
 Default 192.168.16.1
 
 router rip
